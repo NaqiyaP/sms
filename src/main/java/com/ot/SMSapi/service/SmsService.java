@@ -22,9 +22,9 @@ public class SmsService {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);
 		headers.set("Authorization",
-				"Basic dURtaHR6SzhDZUF5c08zVnFNTGk6dVdCOE1va0k0SjVndW04cjdZVVpNUmVtWVJTQmtiVFdiajdxS2o0Wg==");
+				"Basic ZEZybnZHVU5WVk11UXlFb3ZlRXU6dWkwamxuQUY1cmlzSDVCR25FS3l3SjJscGhDNjZkaTNQU0JvVFI2MQ==");
 
-		String url = "https://restapi.smscountry.com/v0.1/Accounts/uDmhtzK8CeAysO3VqMLi/SMSes/";
+		String url = "https://restapi.smscountry.com/v0.1/Accounts/dFrnvGUNVVMuQyEoveEu/SMSes/";
 
 		String requestBody = "{ \"Text\": \"Dear Customer, Your recent transaction of Rs.100 has been successfully credited. Thank you for choosing us! Account Number: PIGMY123 Agent: Naqiya - ORBITTECHNOLOGYS\", \"Number\": \"918618227093\", \"SenderId\": \"UHCSLT\", \"Tool\": \"API\" }";
 
